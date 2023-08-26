@@ -12,6 +12,8 @@ module.exports.isLoggedIn = (req, res, next) => {
     next();
 }
 
+// comment
+
 module.exports.validateCampground = (req, res, next) => {
     const { error } = campgroundSchema.validate(req.body);
     console.log(req.body);
